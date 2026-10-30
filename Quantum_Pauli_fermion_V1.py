@@ -68,10 +68,11 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -2736,7 +2737,7 @@ loto7_4710_k86_loto_plus_1733.csv: pregledano 14,000,128/15,380,937
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 04 10 11 18 28 36 37
+NEXT: 04 x 11 y 28 z 37
 Validacioni NLL: 17.718246985
 Odvojeni test NLL: 17.783645604
 Modelna verovatnoća NEXT: 4.33046274651e-06
@@ -2747,7 +2748,7 @@ Greška Qiskit filtera: 9.719e-15
 Log-prihvatanje filtera: -4.513148369
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 09 17 20 27 29 36 38
+NEXT: 09 x 20 y 29 z 38
 Validacioni NLL: 17.645318670
 Odvojeni test NLL: 17.734029894
 Modelna verovatnoća NEXT: 6.40806617937e-06
@@ -2758,7 +2759,7 @@ Greška Qiskit filtera: 9.007e-15
 Log-prihvatanje filtera: -6.497888870
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 02 08 10 22 23 26 34
+NEXT: 02 x 10 y 23 z 34
 Validacioni NLL: 17.680631587
 Odvojeni test NLL: 17.950427341
 Modelna verovatnoća NEXT: 5.67873052744e-06
