@@ -79,10 +79,11 @@ from qiskit.quantum_info import Statevector
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_2977.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4710_k86_loto_plus_1733.csv"),
+    Path("/data/loto7_4710_k86.csv"),
+    Path("/data/loto7_4710_k86_loto_2977.csv"),
+    Path("/data/loto7_4710_k86_loto_plus_1733.csv"),
 )
+
 
 NUMBER_COUNT = 39
 DRAW_SIZE = 7
@@ -2959,7 +2960,7 @@ loto7_4710_k86_loto_plus_1733.csv: pregledano 14,000,128/15,380,937
 ZAVRŠNA TRI NEXT REZULTATA
 
 loto7_4710_k86.csv
-NEXT: 25 26 27 28 29 30 31
+NEXT: 25 x 27 y 29 z 31
 Validacioni NLL: 16.594493753
 Odvojeni test NLL: 16.585957021
 Modelna verovatnoća NEXT: 1.09236306282e-06
@@ -2971,7 +2972,7 @@ DIJAGNOSTIKA: NEXT sadrži niz od 7 uzastopnih brojeva.
 DIJAGNOSTIKA: Svih sedam brojeva nalazi se u rasponu od deset brojeva.
 
 loto7_4710_k86_loto_2977.csv
-NEXT: 25 28 29 30 31 32 33
+NEXT: 25 x 29 y 31 z 33
 Validacioni NLL: 16.589940692
 Odvojeni test NLL: 16.622196800
 Modelna verovatnoća NEXT: 4.98637196598e-07
@@ -2983,7 +2984,7 @@ DIJAGNOSTIKA: NEXT sadrži niz od 6 uzastopnih brojeva.
 DIJAGNOSTIKA: Svih sedam brojeva nalazi se u rasponu od deset brojeva.
 
 loto7_4710_k86_loto_plus_1733.csv
-NEXT: 15 17 18 19 20 31 32
+NEXT: 15 x 18 y 20 z 32
 Validacioni NLL: 16.674644838
 Odvojeni test NLL: 16.622653595
 Modelna verovatnoća NEXT: 9.61858791937e-07
